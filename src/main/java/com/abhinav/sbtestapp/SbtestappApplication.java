@@ -11,7 +11,7 @@ public class SbtestappApplication {
 	
 	@GetMapping("/message")
 	public String message() {
-		return "Dockerizing sbtestapp .....";
+		return "Dockerizing sbtestapp ......";
 	}
 
 	public static void main(String[] args) {
