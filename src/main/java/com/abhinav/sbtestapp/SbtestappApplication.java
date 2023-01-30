@@ -11,7 +11,7 @@ public class SbtestappApplication {
 	
 	@GetMapping("/message")
 	public String message() {
-		System.out.println("TEST TEST TEST TESt TEST TEST");
+		System.out.println("TEST TEST TEST TESt TEST TEST TEST");
 		return "Dockerizing sbtestapp ......";
 	}
 
